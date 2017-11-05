@@ -1,0 +1,14 @@
+<!--pages/addshop/addshop.wxml-->
+<view>
+  <form bindsubmit="formSubmit">
+    <view>
+      <input name="name" placeholder='请输入店铺名称'/>
+      <input name="location" placeholder='请出入地点'/>
+      <input name="addr" placeholder='请出入地址'/>
+    </view> 
+    <view class="btn-area">
+      <button formType="submit">确定</button>
+      <button formType="reset">取消</button>
+    </view>     
+  </form>
+</view>

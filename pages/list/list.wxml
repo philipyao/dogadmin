@@ -1,0 +1,5 @@
+<!--pages/list/list.wxml-->
+<view>
+  <view wx:for="{{shops}}" wx:key="unique">{{item.name}}({{item.location}})</view>
+  <button bindtap='onCreateShop'>新增店铺</button>
+</view>

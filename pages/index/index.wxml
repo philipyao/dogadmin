@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view>
+  <view class="login">
+    <button class="login-btn" bindtap="adminLogin"> 登陆 </button>
+  </view>
+</view>

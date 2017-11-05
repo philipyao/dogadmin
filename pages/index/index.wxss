@@ -1,0 +1,11 @@
+/**index.wxss**/
+
+.login {
+  display: flex;
+  align-items: center;
+  height: 500px;
+}
+.login-btn {
+  width: 30%;
+  background-color: green;
+}
